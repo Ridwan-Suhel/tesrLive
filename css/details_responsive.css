@@ -1,0 +1,96 @@
+/*------------------------------
+ Details page responsive Start
+ ---------------------------------*/
+
+@media (max-width: 992px) {
+  .slider_wrapper .owl-theme .owl-nav {
+    margin-top: 25px;
+  }
+  .slider_wrapper .owl-carousel .owl-nav .owl-next,
+  .slider_wrapper .owl-carousel .owl-nav .owl-prev {
+    position: inherit;
+    bottom: 0;
+    transform: translateY(0);
+    margin: 0px 10px;
+  }
+  .slider_wrapper .owl-stage-outer {
+    margin-left: 0px;
+  }
+  .slider_wrapper .owl-carousel .owl-nav .owl-next img,
+  .slider_wrapper .owl-carousel .owl-nav .owl-prev img {
+    height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mfp-arrow-left {
+    left: 10px;
+  }
+  .mfp-arrow-left:before {
+    margin-top: 51px;
+  }
+  .mfp-arrow-left:after {
+    margin-top: 51px;
+    border-right: 18px solid transparent;
+  }
+  .mfp-arrow-right {
+    right: 10px;
+  }
+  .mfp-arrow-right:after {
+    border-left: 18px solid transparent;
+  }
+}
+
+@media (max-width: 465px) {
+  .dc_area .dc_title,
+  .dc_area .dc_name {
+    text-align: left;
+  }
+}
+@media (max-width: 370px) {
+  .dc_area {
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .det_id_update {
+    flex-direction: column;
+  }
+  .det_id_update h5 {
+    margin: 10px 0px;
+  }
+  .det_top {
+    padding: 10px 10px;
+  }
+}
+
+/*---------------------
+  Accordion responsive Start
+  ----------------------------*/
+@media (max-width: 375px) {
+  .detials_accr_main_wrapper .accordion-identity .accr-data {
+    border-left: 1px solid #293c62;
+    padding-left: 20px;
+}
+  .detials_accr_main_wrapper .accordion-item {
+    flex-direction: column;
+  }
+  .detials_accr_main_wrapper .accordion-item .accr-heading {
+    width: 100%;
+  }
+  .detials_accr_main_wrapper .accordion-item .accr-desc {
+    width: 100%;
+    display: none;
+  }
+  .detials_accr_main_wrapper .accordion-item .accr-desc.collapse:not(.show) {
+    display: block;
+  }
+  .detials_accr_main_wrapper
+    .plain-item
+    .accr-heading
+    button.accordion-button::after {
+    display: block;
+  }
+}
